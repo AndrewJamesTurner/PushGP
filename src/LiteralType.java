@@ -1,3 +1,3 @@
 public enum LiteralType {
-	INTEGER, FLOAT
+	INTEGER, FLOAT, BOOLEAN
 }

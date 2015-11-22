@@ -1,13 +1,6 @@
-class Instruction {
+interface Instruction {
 
-	String instruction;
-
-	Instruction(String instruction) {
-		this.instruction = instruction;
-	}
-
-	public String toString() {
-		return instruction;
-	}
+	public String toString();
+	public Boolean execute(PushInterpreter interpreter);
 
 }
